@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Welcome": "Hi! Fuckin' World"}
+    return {"Welcome": "Hi World!"}
 
 @app.get("/random")
 async def get_random():
